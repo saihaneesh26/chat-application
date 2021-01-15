@@ -84,9 +84,7 @@ if(isset($_POST['signup']))
 ?>
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="icon" href="favicon1.ico" type="image/ico" >
-	<title>signup page</title>
+<head><title>signup page</title>
 	<link rel="stylesheet" type="text/css" href="style1.css">
 </head>
 <body>
