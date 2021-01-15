@@ -15,7 +15,6 @@ echo base64_decode($row['file']);
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon" href="images/favicon.ico" type="image/ico" >
 	<title>View</title>
 </head>
 <body>
