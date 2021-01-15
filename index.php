@@ -23,23 +23,7 @@ if(isset($_POST['username'])&&isset($_POST['forgetpass']))
 	}
 }
 
-if($_POST['forgetpass'])
-{
-$hash=md5($me.time());
-$_SESSION['time_pass']=time();
-$_SESSION['forget_pass']=$hash;
-$_SESSION['username']=$me;
-$subject="temp login link";
-$headers = 'From: designprjct19@gmail.com' . "\r\n". 
-  'Reply-To: designprjct19@gmail.com' . "\r\n" . 
-  'X-Mailer: PHP/' . phpversion();
-$message= "<a href='http://localhost/project/forgetpass.php?key=$hash' >Click here for temp login</a>";
-mail($email,$subject,$message,$headers);
-header("Location:thankyou.php");return;
-}
-else{
-	echo("error");
-}
+
 /*
 
 $mail='haneesh.inaguri@gmail.com';
@@ -119,7 +103,6 @@ if(isset($_POST['signup']))
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon" href="favicon1.ico" type="image/ico" >
 	<title>login</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="jquery.min.js"></script>
