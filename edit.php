@@ -77,7 +77,6 @@ if(isset($_POST['edit']))
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon" href="favicon1.ico" type="image/ico" >
 	<title>edit your profile</title>
 	<link rel="stylesheet" type="text/css" href="edit.css">
 </head>
