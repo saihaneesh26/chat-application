@@ -53,7 +53,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon" href="images/favicon.ico" type="image/ico" >
+	
 	<title>forgetpass</title>
 </head>
 <body>
