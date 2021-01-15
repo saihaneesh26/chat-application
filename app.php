@@ -92,8 +92,6 @@ if(isset($_POST['refresh']))
 <!DOCTYPE html>
 <html>
 <head>
-	
-	<link rel="icon" href="images/favicon.ico" type="image/ico" >
 	<title>ChAtOtAlKZ</title>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style2.css">
