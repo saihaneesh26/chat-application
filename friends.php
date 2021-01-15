@@ -2,7 +2,6 @@
 <html>
 <head>
 	<title></title>
-	<link rel="icon" href="images/favicon.ico" type="image/ico" >
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
