@@ -1,0 +1,105 @@
+body{
+	color:white;
+	background-color: black;
+	opacity: 0.78;
+	font:sans-serif;
+	font-size:20px;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-position:center;
+	background-repeat: no-repeat; 
+
+}
+#name{
+	border:1px solid white;
+	background-color:black;
+	opacity: 0.78;
+	color:white;
+	padding:2px;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+	color:white;
+	padding:2px 2px;
+
+}
+#btn-close{
+	float:right;
+	margin-right: 20px;
+}
+#slidebar{
+	list-style: none;
+	z-index: 1;
+	top:0;
+	left:0;
+	overflow: hidden;
+	height: 100%;
+	width: 150px;
+	transition: 0.5s;
+	background-color:black;
+	opacity: 0.78; 
+}
+#slidebar input[type="submit"]{
+	padding: 5px 10px;
+	margin:2px 3px;
+	background-color: transparent; 	
+	object-position: center;
+	margin-bottom:10px;
+	color:white;
+	outline: none;
+	border:1px solid white;
+	cursor: pointer;
+}
+.s_result{
+	float:right;
+	margin-right: 10px;
+}
+#titlebar{
+	margin-top:10px;
+	background-color: black;
+	opacity: 0.78;
+	color:white;
+	height: 60px;
+	
+}
+#titlebar input[type="submit"]
+{
+	outline:none;
+	color:white;
+	background-color: transparent;
+	object-position: center;
+	border:1px solid white;
+	cursor: pointer;
+
+}
+#titlebar input[type="text"]
+{
+	outline:none;
+	border:1px solid white;
+	color:white;
+	position: static;
+}
+#logo
+{
+	border:1px solid white;
+	padding: 4px;
+	position: fixed;
+	margin:5px 5px;
+}
+#logo1{
+	padding:5px 5px;
+	margin: 3px;
+	cursor: context-menu;
+}
+.s_result{
+	background-color: black;
+	opacity: 0.78;
+	color:white;
+	font:10px;
+}
+@media(max-width: 576px){
+	#titlebar input[type="submit"]{
+			display: none;
+	}
+}

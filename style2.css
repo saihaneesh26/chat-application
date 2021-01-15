@@ -1,0 +1,403 @@
+body{
+	background-image: url(images/background.jpg);
+	font-family: sans-serif;
+	font-size:13px;
+	max-width: auto;
+	position: relative;
+	max-height: auto;
+	background-size: cover;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-color: black;
+	min-width: 600px;
+	max-width:auto;}
+nav{
+	width:50px; 
+	padding:0
+	margin:0;
+}
+
+.bar{
+width:100%;
+height:70px;
+margin-top:10px;
+display: inline-grid;
+background-color: black;
+opacity: 78%;
+object-position: center;
+position: static;
+display: inline-block;
+}
+#search{
+	background:transparent;
+	border:1px solid white;
+	color:white;
+	height: 25px;
+	outline: none;
+	margin-top: 25px;
+	box-sizing: border-box;
+}
+.bar input[type="submit"]{
+	float:left;
+	text-decoration:none;
+	background:transparent; 
+	color:white;
+	padding:5px 25px;
+	border:1px solid white;
+	margin-top: 25px;
+	margin-right:20px;
+	border-spacing: 20px;
+}
+.bar input[type="submit"]:hover{
+	background-color:white;
+	color:black;
+	box-sizing: border-box;
+	border-collapse: separate;
+	border-spacing: 5px;
+	transition: 0.8s ease;
+	border-collapse:separate;
+	cursor:pointer;
+}
+.bar input[type="text"]:hover{
+	border:none;
+	outline:none;
+	border-bottom: 1px solid white;
+	color:white;
+
+}
+
+.s_result{
+color:black;
+top:0;
+right: 50%;
+width: auto;
+position: absolute;
+background-color:white; 
+position:static;
+
+}
+#friends-btn{
+	color:white;
+	float: right;
+	margin-top: 25px;
+	background-color: transparent;
+	border:1px solid white;
+	text-decoration:none;
+	padding:5px 25px; 
+}
+#friends-btn:hover{
+	color: black;
+	background-color:white;
+	transition: 0.5s; 
+}
+#name{
+	float:left;
+	color:white;
+	background-color: black;
+	opacity: 78%;
+	border:1px solid white;
+	margin-top: 15px;
+	width:100%;
+	text-align:center;
+	padding: 5px 7px; 
+
+}
+.dp{
+	float:right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+#dp-name{
+	margin-top: 100px;
+	padding:2px;
+	float:right;
+	margin-right: -80px;
+	font-size:15px;
+}
+footer{
+	position: absolute;
+}
+#send{
+	margin-top: 20px;
+	color: white;
+	background-color: black;
+	opacity: 78%;
+	width:400px;
+	height:auto;
+	object-position: left;
+	padding: 5px 20px;
+	padding-bottom:40px; 
+	position: static;
+}
+
+#send input[type="text"],textarea[type="text"] {
+outline :none;
+border:1px solid white;
+background:transparent;
+color:white;
+font:sans-serif;
+font-size: 15px;
+object-position: center;
+
+
+}
+#send input[type="submit"]{
+	outline:none;
+	color:white;
+	background-color: coral;
+	border:none;
+	border-radius: 5px;
+	width:350px;
+	object-position: center;
+	cursor: pointer;
+}
+#message_filter {
+	color:white;
+	background-color:black;
+	opacity:78%;
+	height: 200px;
+	overflow: scroll;
+	position: static;
+	font-size:20px;
+}
+#message_inbox{
+	color:white;
+
+	background-color:black;
+	opacity:78%;
+	height: 200px;
+	overflow: scroll;
+	position: static;
+	font-size:20px;
+}
+#message_filter::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 5px;
+}
+#message_inbox::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 5px;
+}
+#message_filter{
+		color:white;
+}
+#message_inbox p,h2{
+	color:white;
+}
+#message_filter img{
+	height:50px;
+}
+#message_inbox img{
+height:50px;
+}
+#dp-logo{
+	font-size: 60px;
+	border:3px solid white;
+	padding:5px;
+}
+#logo{
+	float:left;
+	color:white;
+	font-family:monospace;
+	font-size:25px;
+	padding: 5px 7px;
+	border:1px solid white;
+	background-color: transparent;
+	margin: 4px;
+	margin-top: 15px;
+	margin-left: 4px;
+	cursor:context-menu;
+}
+#logo1{
+	float:left;
+	color:white;
+	font-family:monospace;
+	font-size:25px;
+	padding:5px 7px;
+	border:1px solid white;
+	background-color: transparent;
+	margin: 4px;
+	margin-top: 15px;
+	margin-left: 10px;
+	
+	cursor:context-menu;
+
+}
+#btn-close
+{
+	text-decoration: none;
+	font-size:30px;
+	color:white;
+	float:right;
+	margin-right:10px;
+}
+#slidebar input[type="submit"]{
+	outline:none;
+	border:1px solid white;
+	border-radius: 5px;
+	padding-right:25px;
+	background-color: transparent; 
+	color: white;
+	cursor: pointer;
+	margin-left:10px;
+	margin-top: 10px;
+
+}
+#slidebar{
+	overflow: hidden;
+	height:0px;
+	width: 0px;
+	z-index: 1;
+	top:0;
+	left:0;
+	color:white;
+	position: absolute;
+	object-position:center; 
+	background-color: black;
+	list-style: none;
+	transition: 0.6s;
+}
+#update_mode{
+	color:white;
+	border:1px solid white;
+	padding: 5px 3px;
+	background-color: black;
+	opacity: 0.78;
+	text-decoration:none;
+}
+#update_mode:hover{
+	background-color: white;
+	color:black;
+	transition: 0.5s;
+}
+#filter_mode{
+	color:white;
+	border:1px solid white;
+	padding: 5px 3px;
+	background-color: black;
+	opacity: 0.78;
+	text-decoration:none;
+}
+#filter_mode:hover{
+	background-color: white;
+	color:black;
+	transition: 0.5s;
+}
+#friends-btn{
+	float: right;
+	border-spacing: 10px;
+	position: absolute;
+}
+#friends{
+	background-color: black;
+	color: white;
+	height:84%;
+	margin-top: 260px;
+	position: absolute;
+	z-index: 1;
+	float:right;
+	width:0px;
+	top:0;
+	right:0;
+	transition: 0.5s;
+}
+input[type="file"]{
+	outline:none;
+	background-color: transparent;
+	border:1px solid white;
+	padding:2px;
+	cursor: pointer;
+}
+#copy_fill{
+	color:white;
+	
+	border:1px solid white;
+	padding: 5px 3px;
+	background-color: black;
+	opacity: 0.78;
+	text-decoration:none;
+}
+#image_inbox{
+	background-color: black;
+	color:white;
+	opacity:78%;
+	height: 200px;
+	width:0px;
+	overflow: scroll;
+	position: static;
+	font-size:20px;
+
+}
+#image_mode{
+	color:white;
+	border:1px solid white;
+	padding: 5px 3px;
+	background-color: black;
+	opacity: 0.78;
+	text-decoration:none;
+}
+#navreq{
+	text-decoration:none;
+	outline:none;
+	border:1px solid white;
+	padding:5px 25px;
+	background-color: transparent; 
+	color: white;
+	cursor: pointer;
+	margin-right: 20px;
+	margin-top: 25px;
+}
+#req{
+outline:none;
+	border-radius: 5px;
+    padding-right:25px;
+    border:1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 30px;
+	text-decoration: none;
+}
+#req-div{
+	
+	background-color: black;
+	opacity: 0.78;
+	color:white;
+
+}
+#image_mode:hover{
+	background-color: white;
+	color:black;
+	transition: 0.5s;
+}
+#chat_filter{
+color:white;
+	background-color:black;
+	opacity:78%;
+	height: 200px;
+	overflow: scroll;
+	position: static;
+	font-size:20px;
+	
+	width: 0px;	
+}
+
+@media(max-width: 950px){
+	.bar input[type="submit"]{
+			display: none;
+	}
+	#search{
+		display: fixed;
+	}
+	.s_result{
+		display: fixed;
+		z-index: 1;
+	}
+	#friends-btn{
+		float: none;
+	}
+	#navreq{
+		display: none;
+	}
+}

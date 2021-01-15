@@ -1,0 +1,45 @@
+#table input[type="text"]{
+	outline:none;
+border:1px solid white;
+background-color: transparent;
+color: white;
+
+}
+#table input[type="text"]:hover{
+	border-bottom: 1px solid white;
+}
+
+#table input[type="Password"]{
+outline:none;
+border:1px solid white;
+background-color: transparent;
+color: white;
+}
+#table input[type="Password"]:hover{
+	border-bottom: 1px solid white;
+}
+#table{
+	background-color: black;
+	color:white;
+	font:sans-serif;
+	opacity: 0.78;
+}
+body{
+	background-image:url(images/background.jpg); 
+	color:white;
+}
+#table input[type="submit"]{
+	border:1px solid white;
+	background-color: transparent;
+	color:white;
+	opacity: 0.78;
+
+}
+#table input[type="submit"]:hover{
+	color:black;
+	background-color:white;
+	transition: 0.5s; 
+}
+footer{
+	position: static;
+}
