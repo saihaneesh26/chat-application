@@ -22,9 +22,7 @@ else{
 ?>
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="icon" href="images/favicon.ico" type="image/ico" >
-	<title>forget password</title>
+<head><title>forget password</title>
 </head>
 <body>
 
