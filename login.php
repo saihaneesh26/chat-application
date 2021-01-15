@@ -118,9 +118,7 @@ if(isset($_POST['signup']))
 
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="icon" href="favicon1.ico" type="image/ico" >
-	<title>login</title>
+<head><title>login</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="jquery.min.js"></script>
 </head>
